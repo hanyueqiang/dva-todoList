@@ -7,8 +7,8 @@ dva版本的todoList项目，用来帮初学者更好的理解dva框架
 
   $ npm install
   # watch
-  $ npm run start
-  # build
-  $ npm run build // maybe will throw an error. For roadhog uglify.js, but not important
+  $ npm start
+  # 打包部署
+  $ npm build 
   
 ```
