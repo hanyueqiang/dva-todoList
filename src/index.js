@@ -3,12 +3,19 @@ import './index.css';
 
 // 1. Initialize
 const app = dva({
-    initialState: {
-        products: [
-            { name: 'dva', id: 1 },
-            { name: 'antd', id: 2 }
-        ]
-    }
+  initialState: {
+    products: [{
+      key: '1',
+      name: '胡彦斌',
+      age: 32,
+      address: '西湖区湖底公园1号'
+    }, {
+      key: '2',
+      name: '胡彦祖',
+      age: 42,
+      address: '西湖区湖底公园1号'
+    }]
+  }
 });
 
 // 2. Plugins
