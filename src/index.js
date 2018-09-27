@@ -5,11 +5,13 @@ import './index.css';
 const app = dva({
   initialState: {
     products: [{
+      id: 123,
       key: '1',
       name: '胡彦斌',
       age: 32,
       address: '西湖区湖底公园1号'
     }, {
+      id: 456,
       key: '2',
       name: '胡彦祖',
       age: 42,
