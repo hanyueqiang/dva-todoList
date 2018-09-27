@@ -38,15 +38,7 @@ const ProductList = ({
       }
     }
   ];
-  return ( <
-    Table dataSource = {
-      products
-    }
-    columns = {
-        columns
-    }
-    />
-  )
+  return ( <Table dataSource = {products} columns = {columns}/> )
 }
 
 ProductList.propTypes = {
