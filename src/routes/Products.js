@@ -11,10 +11,11 @@ const Products = ({ dispatch, products }) => {
         //     payload: id
         // })
     }
+
     return (
         <div style={{margin:20}}>
             <h2 style={{textAlign:'center'}}>List of Products</h2>
-            <ProductList onDelete={handleDelete} products={products} />
+            <ProductList onDelete={handleDelete} products={products}/>
         </div>
     )
 }
